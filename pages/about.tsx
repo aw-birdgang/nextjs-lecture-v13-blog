@@ -1,7 +1,12 @@
+import NavBar from "@/components/NavBar";
+
 function AboutPage() {
     console.log('AboutPage ender')
     return (
         <>
+            <header>
+                <NavBar />
+            </header>
             <main>
                 <h1>About</h1>
             </main>
