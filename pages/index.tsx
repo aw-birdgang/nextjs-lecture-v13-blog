@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 function HomePage() {
     console.log('HomePage ender');
@@ -11,9 +12,11 @@ function HomePage() {
             <main>
                 <h1>My Blog</h1>
                 <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
+                    <li>
+                        <Link href="/posts/first-post">
+                            First Post
+                        </Link>
+                    </li>
                 </ul>
             </main>
         </>
